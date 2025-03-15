@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EXERCISE 4</title>
+</head>
+<body>
+    <form action="#" method="post">
+        
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="enter your name" required><br><br>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="enter your email" required><br><br>
+            
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" name="contact" placeholder="enter your Number"><br><br>
+        </fieldset>
+        
+
+        <fieldset>
+            <legend>Conference Details</legend>
+            <p>Preferred Day(s) of Attendance:</p>
+            
+            <label for="day1">Day 1</label>
+            <input type="checkbox" id="day1" name="attendance">
+            <label for="day2">Day 2</label>
+            <input type="checkbox" id="day2" name="attendance" value="Day 2">
+            <label for="day3">Day 3</label>
+            <input type="checkbox" id="day3" name="attendance" value="Day 3">
+            
+            
+            <p>Type of Attendance:</p>
+            <label for="virtual">Virtual</label>
+            <input type="radio" id="virtual" name="type">
+            <label for="inperson">In-person</label>
+            <input type="radio" id="inperson" name="type">
+            <br><br>
+            
+            <label for="tshirt">T-shirt Size:</label>
+            <select id="tshirt" name="tshirt">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Sessions of Interest</legend>
+            <label for="webdev">Web Development</label>
+            <input type="checkbox" id="webdev" name="interest">
+            <label for="datasci">Data Science</label>
+            <input type="checkbox" id="datasci" name="interest">
+            <label for="cloud">Cloud Computing</label>
+            <input type="checkbox" id="cloud" name="interest">
+            <label for="cyber">Cybersecurity</label>
+            <input type="checkbox" id="cyber" name="interest" >
+            <label for="ai">AI & Machine Learning</label>
+            <input type="checkbox" id="ai" name="interest">
+            
+        </fieldset>
+        
+
+        <fieldset>
+            <legend>Dietary Preferences</legend>
+            <label for="veg">Vegetarian</label>
+            <input type="checkbox" id="veg" name="diet" >
+            <label for="vegan">Vegan</label>
+            <input type="checkbox" id="vegan" name="diet" >
+            <label for="glutenfree">Gluten-Free</label>
+            <input type="checkbox" id="glutenfree" name="diet" >
+            <label for="nutfree">Nut-Free</label>
+            <input type="checkbox" id="nutfree" name="diet" >
+            <label for="dairyfree">Dairy-Free</label>
+            <input type="checkbox" id="dairyfree" name="diet" >
+            <label for="none">No Restrictions</label>
+            <input type="checkbox" id="none" name="diet">
+            
+        </fieldset>
+        
+        <fieldset>
+            <legend>Additional Comments</legend>
+            <textarea name="comments" rows="5" cols="50" placeholder="Comments"></textarea>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Consent</legend>
+            <label for="consent">via email.</label>
+            <input type="checkbox" id="consent" name="consent" required>
+        </fieldset>
+        
+
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
