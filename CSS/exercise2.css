@@ -1,0 +1,15 @@
+p{
+    color: brown;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.favs{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+#characterName{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: blue;
+}

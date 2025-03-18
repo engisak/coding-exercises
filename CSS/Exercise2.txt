@@ -1,0 +1,15 @@
+### **Assignment: Simple Biography Page**
+
+**Objective:** Create a simple biography page for a fictional character. This page will include a name, a title or role, a brief biography, and a list of favorite books or movies. Students will use element, class, and ID selectors to apply basic styles.
+
+**Requirements:**
+
+1. **Web Page Content**:
+    - A heading (h1) for the character's name.
+    - A subheading (h2) for the character's title or role.
+    - A paragraph (p) for the brief biography.
+    - An unordered list (ul) of favorite books or movies.
+2. **Styling Details**:
+    - **Element Selector**: Use the element selector to change the font size and color of all paragraphs (**`p`**) to make the biography text distinct.
+    - **Class Selector**: Define a class **`.favs`** and use it for the unordered list. Apply a different color to the list items to distinguish them from the main biography text.
+    - **ID Selector**: Assign an ID **`#character-name`** to the heading (h1) containing the character's name. Style this heading to make it stand out on the page, perhaps by changing its color and font size.
