@@ -1,0 +1,14 @@
+### Assignment: My Hobby Page
+
+**Objective:** Create a simple web page that talks about one of your hobbies. The page should include a heading, a paragraph describing why you enjoy the hobby, and a list of items related to the hobby (like equipment, books, etc.).
+
+**Requirements:**
+
+1. **Web Page Content**:
+    - A heading with the name of your hobby.
+    - A paragraph describing why you enjoy this hobby.
+    - A bulleted list of items related to your hobby.
+2. **Styling Details**:
+    - **Inline Styles**: Use inline styles for the heading to change its color and font size.
+    - **Internal Stylesheet**: Within the `<head>` section of your HTML, use a `<style>` tag to write CSS rules that style the paragraph. This could include changing the font family and text alignment.
+    - **External Stylesheet** (`styles.css`): Use this stylesheet to style the bulleted list. You could change the list item color,  or add a background color to each item in the list.
