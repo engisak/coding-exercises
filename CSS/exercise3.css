@@ -1,0 +1,39 @@
+.header{
+    background-color: green;
+    color: white;
+}
+.info{
+    background-color: brown;
+    color: #f5deb3;
+}
+
+.service{
+    background-color: #30a52a;
+    color: #f5deb3;
+    font-size: 18px;
+}
+
+.test1{
+    background-color: #f6bd60;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}
+.test2{
+    background-color: #001d3d;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.test3{
+    background-color: #0e8221;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.Contact{
+    background-color: #48f0ed;
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+}

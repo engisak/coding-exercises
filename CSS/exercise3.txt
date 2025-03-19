@@ -1,0 +1,12 @@
+### Mini-Project: Colorful Company Profile Page
+
+### Project Overview:
+
+Design a company profile page with a focus on color usage to create visual sections, highlight key information, and maintain accessibility.
+
+### Requirements:
+
+1. **Header**: Apply a background color and ensure the company name stands out with a contrasting text color.
+2. **About Section**: Use background and text colors that provide good readability and draw attention to the mission statement.
+3. **Products/Services Section**: Differentiate products/services using background colors or colored cards.
+4. **Footer**: Use a darker shade for the footer, maintaining readability with lighter text color.
