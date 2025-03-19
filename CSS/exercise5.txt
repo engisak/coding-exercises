@@ -1,0 +1,9 @@
+Exercise: Styling a Blog Post Excerpt
+Create an HTML document and style a short blog post excerpt using the text properties covered. Ensure the title is centered, the body text has comfortable line spacing, and any important phrases are underlined.
+
+
+HTML Structure:
+<article>
+    <h2>Discovering CSS Text Properties</h2>
+    <p>Exploring the vast capabilities of CSS can significantly improve the visual appeal of web content. Paying attention to <span class="important">text properties</span> not only enhances readability but also user engagement.</p>
+</article>
