@@ -1,0 +1,13 @@
+blockquote{
+    font-family: sans-serif;
+    font-size: 28;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18;
+    font-weight: bold;
+    font-style: normal;
+}

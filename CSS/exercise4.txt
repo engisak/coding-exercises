@@ -1,0 +1,10 @@
+Exercise: Styling a Quote
+Create a simple HTML page and style a quote using the font properties you've learned. The quote should have a different font family and size for the quote itself and the author's name. Make the quote italic and the author's name bold.
+
+
+
+HTML Structure:
+<blockquote>
+    "The only way to do great work is to love what you do."
+    <footer>— Steve Jobs</footer>
+</blockquote>
