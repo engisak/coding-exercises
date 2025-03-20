@@ -1,0 +1,23 @@
+### Exercise:
+
+Create a simple webpage layout featuring a navigation bar, three content boxes, and a footer. Each section should be distinctly spaced using margins to ensure clear separation.
+
+### HTML Structure:
+
+```html
+<nav class="navbar">Navigation Bar</nav>
+<div class="content-box" id="box1">Content Box 1</div>
+<div class="content-box" id="box2">Content Box 2</div>
+<div class="content-box" id="box3">Content Box 3</div>
+<footer class="footer">Footer</footer>
+
+```
+
+### Instructions:
+
+1. Each `div` in the "content-box" class should be visually separated from each other.
+2. The navigation bar should have a margin that separates it from the first content box.
+3. The footer should have a clear space from the last content box, ensuring it does not touch any other elements.
+4. Use only the margin properties to adjust the spacing between elements.
+
+###

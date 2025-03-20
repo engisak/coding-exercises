@@ -1,0 +1,12 @@
+### Instructions:
+
+1. Apply different padding settings to each text block to vary the internal space:
+    - **Text Block 1**: Large padding for a spacious layout.
+    - **Text Block 2**: Minimal padding for a snug look.
+    - **Text Block 3**: Optimally balanced padding for comfortable reading.
+2. Ensure that the padding not only affects the text's readability but also its overall appeal and integration with the rest of the page's design.
+
+
+<div class="text-block" id="block1">Text Block 1 - Notice the spacious layout inside.</div>
+<div class="text-block" id="block2">Text Block 2 - A more snug appearance.</div>
+<div class="text-block" id="block3">Text Block 3 - Perfect for reading with balanced spacing.</div>

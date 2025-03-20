@@ -1,0 +1,25 @@
+.navbar{
+    background-color: red;
+    margin: 10px 20px 30px 20px;
+}
+
+.content-box{
+    background-color: blue;
+    color: #ffffff;
+}
+
+#box1{
+    margin: 10px 20px 10px 20px;
+}
+#box2{
+    background-color: #522fff;
+    margin: 10px 20px;
+}
+#box3{
+    margin: 20px;
+}
+
+.footer{
+    background-color: blueviolet;
+    margin: 30px 20px;
+}
