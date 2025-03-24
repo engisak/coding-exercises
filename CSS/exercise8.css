@@ -1,0 +1,37 @@
+body{
+    background-color: grey;
+}
+.quote{
+    margin-bottom: 20px;
+    padding: 30px 20px;
+    width: 300px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#quote1{
+    border: 4px solid #00bfff;
+    background-color: green;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+}
+#quote2{
+    border: 4px dashed red;
+    background-color: #006480;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif; 
+}
+#quote3{
+    border: 4px double yellow;
+    background-color: #972688;
+    text-align: right;
+    font-family: Arial, sans-serif;
+}
+#quote4{
+    border: 4px groove white;
+    background-color: #800015;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

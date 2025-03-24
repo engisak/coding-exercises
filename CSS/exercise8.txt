@@ -1,0 +1,43 @@
+### Excercise: "Stylish Quote Gallery"
+
+### Objective:
+
+Design a webpage that displays a gallery of quotes, each styled with unique borders, margins, and padding. This exercise will help you practice applying CSS styles to create distinct visual effects.
+
+### Instructions:
+
+### Setup:
+
+1. Create a new HTML document and a corresponding CSS file.
+2. Link the CSS file to your HTML document.
+
+### HTML Requirements:
+
+Inside the `<body>` of your HTML document, include at least four `<div>` elements, each containing a quote and an attribution to the person who said it. Example structure:
+
+
+<div class="quote" id="quote1">
+    <p>"Logic will get you from A to B. Imagination will take you everywhere." - Albert Einstein</p>
+</div>
+<div class="quote" id="quote2">
+    <p>"Be yourself; everyone else is already taken." - Oscar Wilde</p>
+</div>
+<div class="quote" id="quote3">
+    <p>"So many books, so little time." - Frank Zappa</p>
+</div>
+<div class="quote" id="quote4">
+    <p>"A room without books is like a body without a soul." - Marcus Tullius Cicero</p>
+</div>
+
+
+### CSS Tasks:
+
+1. **General Style**:
+    - Apply a general font style and body background color of your choice to make the text easily readable and the page visually appealing.
+2. **Border Styles**:
+    - Assign each quote a unique border style (`solid`, `dotted`, `dashed`), width, and color. Ensure each style clearly differentiates from the others.
+3. **Margins and Padding**:
+    - Use margins to ensure that the quotes do not touch each other or the edges of the window.
+    - Apply padding within each quote box to give space between the text and the border.
+4. **Individual Styling**:
+    - Use the `id` selector to apply unique styles to each quote box. You might change background colors, text alignment, or include a subtle `box-shadow` to enhance the visual hierarchy.
