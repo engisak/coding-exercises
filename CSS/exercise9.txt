@@ -1,0 +1,49 @@
+### Exercise: "Stylish Content Sections"
+
+### Objective:
+
+Use CSS to style predefined HTML sections representing different interests such as books, movies, and foods. Each section should be distinctly styled using the CSS `width`, `height`, and other relevant properties.
+
+### Overview:
+
+You will be provided with a basic HTML structure. Your task is to apply CSS to style the sections according to the specified requirements. This will include setting dimensions and adding aesthetic enhancements to create a visually appealing layout.
+
+### HTML Provided:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interests Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="interest-section" id="books">
+        <h1>Books</h1>
+        <p>List your favorite books here!</p>
+    </div>
+    <div class="interest-section" id="movies">
+        <h1>Movies</h1>
+        <p>List your favorite movies here!</p>
+    </div>
+    <div class="interest-section" id="foods">
+        <h1>Foods</h1>
+        <p>List your favorite foods here!</p>
+    </div>
+</body>
+</html>
+
+### CSS Tasks:
+
+1. **General Section Styling**:
+    - Set the `width` of each section to `80vw`.
+    - Set the `height` of each section to `50vh`.
+    - Apply a `margin` of `5vh` to the top and bottom of each section to separate them visually.
+    - Add `padding` of `20px` inside each section to ensure the content does not touch the edges.
+2. **Specific Section Requirements**:
+    - **Books Section**: Background color should be light blue.
+    - **Movies Section**: Background color should be light grey.
+    - **Foods Section**: Background color should be light green.
+3. **Text Styling**:
+    - Center all headings (`h1`) and paragraphs (`p`) within each section.
+    - Set the font size of `h1` to `24px` and `p` to `16px`.
