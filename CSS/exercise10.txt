@@ -1,0 +1,21 @@
+
+Exercises
+Goal: Modify the CSS to learn how the display property affects the layout of elements.
+Initial HTML.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Display Property Exercise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="div1">This div is a block-level element by default. It should fill the width of the screen and have a light blue background.</div>
+
+    <span id="span1">This span is an inline element by default and should display inline with a coral background.</span>
+    
+    <div id="div2">This div should be hidden using CSS.</div>
+    <span id="span2">This span should be displayed as a block element and fill the width of the screen with a yellow background.</span>
+</body>
+</html>
