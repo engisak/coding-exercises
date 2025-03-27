@@ -1,0 +1,18 @@
+.feature-section{
+    width: 500px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzcz3PEiGbMs7JxYpdI0EjqRgEp9d--sxFAg&s);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.feature-section h2{
+    font-size: 28px;
+}
+.feature-section p{
+    font-size: 18px;
+}

@@ -1,0 +1,16 @@
+### Exercise: Styling a Feature Section
+
+Create a feature section for a webpage that highlights a special offer, product, or service. Use background properties to make the section stand out.
+
+### Task Objectives:
+
+1. **Feature Section Creation**: Use a `<div>` element to represent the feature section.
+2. **Background Color**: Choose a background color that complements the overall design of the webpage and apply it to the section.
+3. **Background Image**: Add a relevant image as the background. This could represent the offer, product, or service being featured.
+4. **Text Over Image**: Include a headline and a short description within the feature section. Ensure the text is legible over the background image.
+5. **Image Positioning and Sizing**: Adjust the background image to cover the entire section without repeating, and position it to best fit the content.
+
+<div class="feature-section">
+    <h2>Special Offer</h2>
+    <p>Don't miss out on our exclusive deal available this week only!</p>
+</div>
