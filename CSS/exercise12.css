@@ -1,0 +1,23 @@
+.profile-card{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    border-radius: 10px;
+}
+.profile-image{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.user-info{
+    top: 355px;
+    right: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #ffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
