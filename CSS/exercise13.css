@@ -1,0 +1,37 @@
+.fixed-navbar{
+    width: 100%;
+    background-color: #000;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+.fixed-navbar a{
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.fixed-footer{
+    width: 100%;
+    background-color: #000;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+.fixed-footer a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.fixed-footer span{
+    color: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+}
