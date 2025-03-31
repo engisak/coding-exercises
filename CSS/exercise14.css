@@ -1,8 +1,17 @@
 .sticky-header{
     background-color: #fff;
     padding: 10px;
-    color: #000;
+    color: #f12424;
+    font-size: 22px;
+    font-weight: 500;
     position: sticky;
     top: 0;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+p{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #435;
 }
