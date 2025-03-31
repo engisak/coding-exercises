@@ -9,6 +9,7 @@
     - A subheading (h2) for the character's title or role.
     - A paragraph (p) for the brief biography.
     - An unordered list (ul) of favorite books or movies.
+    
 2. **Styling Details**:
     - **Element Selector**: Use the element selector to change the font size and color of all paragraphs (**`p`**) to make the biography text distinct.
     - **Class Selector**: Define a class **`.favs`** and use it for the unordered list. Apply a different color to the list items to distinguish them from the main biography text.
