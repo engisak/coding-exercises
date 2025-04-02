@@ -41,12 +41,20 @@ nav ul li a{
   font-size: 18px;
   color: #fff;
 }
+nav ul li a:hover{
+  color: #000;
+}
 .login{
   color: #fff;
   background-color: #7fff29;
   padding: 5px 18px;
   border: none;
   border-radius: 10px;
+}
+.login:hover{
+  border: 2px solid #7fff29;
+  background-color: #fff;
+  color: #000;
 }
 .main-content{
   display: flex;
