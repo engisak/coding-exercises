@@ -42,17 +42,19 @@ nav ul li a{
 nav ul li a:hover{
   color: #000;
 }
-.login{
-  color: #fff;
+.login button{
   background-color: #7fff29;
-  padding: 5px 18px;
-  border: none;
-  border-radius: 10px;
+  padding: 8px 24px;
+  border: 1px solid #7fff29;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
 }
-.login:hover{
+.login button:hover{
   border: 2px solid #7fff29;
   background-color: #fff;
   color: #000;
+  transition: 0.5s;
 }
 .main-content{
   display: flex;
@@ -119,6 +121,8 @@ nav ul li a:hover{
   text-decoration: none;
   color: #fff;
   font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 500;
   cursor: pointer;
 }
 .side-bar ul li a:hover{
