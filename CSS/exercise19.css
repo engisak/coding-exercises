@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 150px 150px;
+    gap: 10px;
+}
+.box{
+    border: 1px solid red;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
