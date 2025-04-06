@@ -9,32 +9,15 @@
 body{
     font-family: "Poppins", sans-serif;
 }
-.container{
-    width: 1110px;
-    padding: 10px;
-    background-color: antiquewhite;
+
+.conatiner{
+    width: 1120px;
+    background-color: red;
+    padding: 20px;
     margin: 0 auto;
 }
+
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
-}
-/* background: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/97-485x360.jpg") center / cover no-repeat; */
-
-.grid-container .blogs{
-    grid-column: 1/ span 2;
-    background-color: red;
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
-    padding: 10px; */
-}
-
-.blogs .blog{
-    display: flex;
-}
-.grid-container .ads{
-    padding: 20px;
-    background-color: yellow;
+    grid-template-columns: repeat(4,1fr);
 }
