@@ -52,13 +52,13 @@ img{
     height: 155.891px;
 }
 
-.blog .post-info h2{
+.post-info h2{
     font-size: 22px;
     font-weight: 400;
     line-height: 29px;
     color: #000;
 }
-.blog .post-info h2:hover{
+.post-info h2:hover{
     cursor: pointer;
     color: #4db2ec;
 }
@@ -88,7 +88,7 @@ img{
 /* SIDE BAR DESIGN  */
 .side-bar{
     /* remove  */
-    background-color: #1364fb;
+    /* background-color: #1364fb; */
 }
 .ads{
     width: 300px;
@@ -104,4 +104,44 @@ img{
     line-height: 17px;
     color: #fff;
     padding: 5px 0;
+}
+
+.blog.sidebar{
+    flex-direction: column;
+
+}
+
+.blog.sidebar img{
+    width: 100%;
+    height: auto;
+}
+.blog.sidebar .author-date{
+    margin-block: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.number-count{
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 600;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+
+}
+.THUMNAIL{
+    position: relative;
+}
+.Recepic{
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 12px;
+    cursor: pointer;
 }
