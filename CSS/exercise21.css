@@ -14,49 +14,21 @@ body{
 .container{
     width: 1110px;
     margin: 0 auto;
-    /* background-color: red; */
 }
 
-.grid-con{
+.grid-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* background-color: yellow; */
-    gap: 10px;
 }
 
-.grid-con .main-section{
+.main{
     grid-column: 1 / span 2;
-}
-.grid-con .main-section .blog{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    background-color: red;
     padding: 10px;
 }
-.grid-con .main-section .blog .img{
-    background: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/08/97-485x360.jpg");
-}
-.grid-con .main-section .blog .text{
-    grid-column: 2 /-1;
-    /* background-color: blueviolet; */
+
+.side-bar{
+    background-color: yellow;
+    padding:10px ;
 }
 
-
-.blog .text h1{
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 22px;
-    color: #4db2ec;
-}
-
-.grid-con .ads{
-    /* padding: 10px; */
-    background-color: blue;
-    gap: 20px;
-}
-
-.grid-con .ads .ad{
-    width: 100%;
-    height: 250px;
-    background: url("https://demo.tagdiv.com/newspaper_pro/wp-content/uploads/2019/10/newspaper-rec300d.jpg");
-}
