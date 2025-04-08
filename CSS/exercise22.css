@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+    /* background-color: #dcdddd; */
+    padding: 20px;
+}
+
+.cars{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.car{
+    width: 250px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 0 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.car .image{
+    width: 200px;
+    height: auto;
+    padding: 10px 0;
+}
+
+.car .image img{
+    width: 100%;
+    height: auto;
+    /* border-radius: 5px; */
+}
+.car h1{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 5px 0;
+
+}
+.car p{
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+.car a{
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    color: #0000ff;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width:640px){
+    .cars{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
