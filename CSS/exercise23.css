@@ -25,7 +25,7 @@ img {
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    text-align: center;
+    text-align: left;
     min-width: 200px;
     width: calc(25% - 10px); 
     border-radius: 8px;
@@ -47,6 +47,7 @@ img {
     font-size: 18px;
     line-height: 20px;
     font-weight: 400;
+    padding: 10px;
 }
 @media (max-width: 1200px) {
     .blog {
