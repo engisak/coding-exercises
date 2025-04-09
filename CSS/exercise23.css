@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     background-color: #f4f4f4;
 }
 
@@ -36,7 +36,12 @@ img {
     transform: translateY(10px);
 }
 
-
+.blog .title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px;
+}
 @media (max-width: 1200px) {
     .blog {
         width: calc(33.333% - 20px); 
