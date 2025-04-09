@@ -12,6 +12,7 @@ body {
 img {
     max-width: 100%;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .blogs {
@@ -41,6 +42,11 @@ img {
     font-weight: 700;
     line-height: 20px;
     padding: 10px;
+    cursor: pointer;
+    color: #222;
+}
+.blog .title:hover{
+    color: #c310ab;
 }
 .blog .date{
     padding: 10px;
@@ -54,6 +60,7 @@ img {
     line-height: 20px;
     font-weight: 400;
     padding: 10px;
+    color: #222;
 }
 @media (max-width: 1200px) {
     .blog {
