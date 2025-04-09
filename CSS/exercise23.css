@@ -42,7 +42,13 @@ img {
     line-height: 20px;
     padding: 10px;
 }
-
+.blog .date{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: gray;
+}
 .blog p{
     font-size: 18px;
     line-height: 20px;
