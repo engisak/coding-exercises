@@ -11,12 +11,19 @@ body{
 img{
     width: 100%;
 }
+.title{
+    font-size: 29px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 40px;
+}
 .services{
     background-color: #fff;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .service{
@@ -25,6 +32,12 @@ img{
     padding: 20px;
     text-align: center;
     border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.service:hover{
+    transform: translateY(-10px);
 }
 
 .service h2{
