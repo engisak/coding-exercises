@@ -41,34 +41,27 @@
 .text p{
     color: rgba(0, 0, 0, 0.8);
     font-size: 14px;
-    line-height: 16px;
+    line-height: 18px;
 }
 .text button{
-    padding: 24px 48px;
+    padding: 15px 48px;
     border-radius: 36px;
     border: none;
 }
 .images{
-    /* background-color: #bbff00; */
     display: flex;
-    /* gap: 20px; */
-
 }
 img{
     width: 100%;
 }
 .img1{
-    /* width: 100%; */
-    background: url("https://plus.unsplash.com/premium_photo-1728150816111-d4a8940ab244?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
+    background: url("https://images.unsplash.com/photo-1550684393-8e0b1468ca57?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
     border-radius: 50% 50% 0 0;
     width: 252px;
     height: 284px;
-
 }
 .img2{
-    /* width: 100%; */
-
-    background: url("https://images.unsplash.com/photo-1652259461936-a1575b89783e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
+    background: url("https://images.unsplash.com/photo-1524230572899-a752b3835840?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover no-repeat;
     border-radius: 50% 50% 0 0;
     margin-left:-50px ;
     margin-top: 80px;
@@ -92,6 +85,10 @@ img{
 .cars .car h2{
     font-size: 22px;
     padding: 10px 0 24px 0;
+}
+
+.cars .car i{
+    color: #fff;
 }
 
 
